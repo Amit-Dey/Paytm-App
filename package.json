@@ -9,7 +9,8 @@
     "db:generate": "cd packages/db && npx prisma generate && cd ../..",
     "db:migrate": "cd packages/db && npx prisma migrate dev && cd ../..",
     "db:seed": "cd packages/db && npx prisma db seed --preview-feature && cd ../..",
-    "db:studio": "cd packages/db && npx prisma studio && cd ../.."
+    "db:studio": "cd packages/db && npx prisma studio && cd ../..",
+    "start-user-app": "cd ./apps/user-app && npm run start"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
